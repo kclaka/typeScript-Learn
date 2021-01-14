@@ -49,3 +49,12 @@ var Students = {
 };
 console.log(Students);
 console.log(airplaneSeats);
+var a1 = [1, 2, 4];
+var c = ['a'];
+var d1 = [1, "a"];
+d1.map(function (_) {
+    if (typeof _ === 'number') {
+        return _ * 3;
+    }
+    return _.toUpperCase;
+});

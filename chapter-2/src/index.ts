@@ -101,4 +101,22 @@ console.log(airplaneSeats)
 
 
 
-type Cat = {}
+type Cat = {name: string, purrs:boolean}
+type Dog = {name:String, barks:boolean}
+
+
+type carordog = Cat | Dog
+type catanddog = Cat & Dog
+
+let a1 = [1, 2, 4]
+let c : string[] = ['a']
+
+let d1 = [1, "a"]
+
+d1.map(_ => {
+    if (typeof _ === 'number'){
+        return _ * 3
+    }
+
+    return _.toUpperCase
+})
