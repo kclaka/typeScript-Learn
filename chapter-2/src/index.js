@@ -58,3 +58,19 @@ d1.map(function (_) {
     }
     return _.toUpperCase;
 });
+var b2 = ['Sully', 'Frank', 1992];
+var option;
+option = ["dog", true];
+var t11 = [1];
+var trainFaires = [
+    [3.75],
+    [8.25, 7.70],
+    [10.50]
+];
+var list = [1, false, "phyno", "dbanj"];
+var as = [1, 2, 3];
+var tu = [27, "Kenny"];
+function flip(f) {
+    return "flipped it";
+}
+console.log(flip("Burger" /* Burger */));

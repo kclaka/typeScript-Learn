@@ -120,3 +120,41 @@ d1.map(_ => {
 
     return _.toUpperCase
 })
+
+let b2: [string, string, number] = ['Sully', 'Frank', 1992]
+
+let option : [string, boolean]
+
+
+option = ["dog", true]
+
+type point3d = [number, number, number]
+
+
+
+let t11: [number] = [1]
+
+let trainFaires : [number, number?] [] = [
+    [3.75],
+    [8.25, 7.70],
+    [10.50]
+]
+
+let list: [number, boolean, ...string[]] = [1, false, "phyno", "dbanj"]
+
+
+let as : readonly number[] = [1, 2, 3]
+let tu : readonly[number, string] = [27, "Kenny"]
+
+
+const enum Flippable {
+    Burger = 'Burger',
+    Chair = 'Chair'
+}
+
+
+function flip(f: Flippable){
+    return "flipped it"
+}
+
+console.log(flip(Flippable.Burger))
